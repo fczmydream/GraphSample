@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2192812A1F39A82C00712B4F /* star_level@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 219281291F39A82C00712B4F /* star_level@2x.png */; };
 		21B87E301F39897500D3563C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B87E2F1F39897500D3563C /* main.m */; };
 		21B87E331F39897500D3563C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B87E321F39897500D3563C /* AppDelegate.m */; };
 		21B87E361F39897500D3563C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B87E351F39897500D3563C /* ViewController.m */; };
@@ -15,6 +16,17 @@
 		21B87E3E1F39897500D3563C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B87E3C1F39897500D3563C /* LaunchScreen.storyboard */; };
 		21B87E491F39897600D3563C /* GraphSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B87E481F39897600D3563C /* GraphSampleTests.m */; };
 		21B87E541F39897600D3563C /* GraphSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B87E531F39897600D3563C /* GraphSampleUITests.m */; };
+		21B87E6A1F398B3400D3563C /* FImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B87E651F398B3400D3563C /* FImageView.m */; };
+		21B87E6B1F398B3400D3563C /* FLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B87E671F398B3400D3563C /* FLabel.m */; };
+		21B87E6C1F398B3400D3563C /* FView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B87E691F398B3400D3563C /* FView.m */; };
+		21B87E6F1F398C3E00D3563C /* FStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B87E6E1F398C3E00D3563C /* FStarView.m */; };
+		21B87E721F398D0D00D3563C /* UIView+Fang.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B87E711F398D0D00D3563C /* UIView+Fang.m */; };
+		21B87E751F398D8800D3563C /* FCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B87E741F398D8800D3563C /* FCircleView.m */; };
+		21B87E781F398E9A00D3563C /* FGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B87E771F398E9A00D3563C /* FGraphView.m */; };
+		21B87E7B1F398ED100D3563C /* GraphCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B87E7A1F398ED100D3563C /* GraphCell.m */; };
+		21B87E7E1F39A2DE00D3563C /* heart_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B87E7C1F39A2DE00D3563C /* heart_circle@2x.png */; };
+		21B87E7F1F39A2DE00D3563C /* midLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B87E7D1F39A2DE00D3563C /* midLine@2x.png */; };
+		21B87E811F39A55B00D3563C /* adele-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21B87E801F39A55B00D3563C /* adele-light-webfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		219281291F39A82C00712B4F /* star_level@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_level@2x.png"; sourceTree = "<group>"; };
 		21B87E2B1F39897500D3563C /* GraphSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B87E2F1F39897500D3563C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21B87E311F39897500D3563C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,27 @@
 		21B87E4F1F39897600D3563C /* GraphSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B87E531F39897600D3563C /* GraphSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphSampleUITests.m; sourceTree = "<group>"; };
 		21B87E551F39897600D3563C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21B87E611F398A3C00D3563C /* Graph-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Graph-Prefix.pch"; sourceTree = "<group>"; };
+		21B87E621F398A9F00D3563C /* HDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDefine.h; sourceTree = "<group>"; };
+		21B87E641F398B3400D3563C /* FImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FImageView.h; sourceTree = "<group>"; };
+		21B87E651F398B3400D3563C /* FImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FImageView.m; sourceTree = "<group>"; };
+		21B87E661F398B3400D3563C /* FLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLabel.h; sourceTree = "<group>"; };
+		21B87E671F398B3400D3563C /* FLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLabel.m; sourceTree = "<group>"; };
+		21B87E681F398B3400D3563C /* FView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FView.h; sourceTree = "<group>"; };
+		21B87E691F398B3400D3563C /* FView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FView.m; sourceTree = "<group>"; };
+		21B87E6D1F398C3E00D3563C /* FStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FStarView.h; sourceTree = "<group>"; };
+		21B87E6E1F398C3E00D3563C /* FStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FStarView.m; sourceTree = "<group>"; };
+		21B87E701F398D0D00D3563C /* UIView+Fang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Fang.h"; sourceTree = "<group>"; };
+		21B87E711F398D0D00D3563C /* UIView+Fang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Fang.m"; sourceTree = "<group>"; };
+		21B87E731F398D8800D3563C /* FCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCircleView.h; sourceTree = "<group>"; };
+		21B87E741F398D8800D3563C /* FCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCircleView.m; sourceTree = "<group>"; };
+		21B87E761F398E9A00D3563C /* FGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGraphView.h; sourceTree = "<group>"; };
+		21B87E771F398E9A00D3563C /* FGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGraphView.m; sourceTree = "<group>"; };
+		21B87E791F398ED100D3563C /* GraphCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphCell.h; sourceTree = "<group>"; };
+		21B87E7A1F398ED100D3563C /* GraphCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphCell.m; sourceTree = "<group>"; };
+		21B87E7C1F39A2DE00D3563C /* heart_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart_circle@2x.png"; sourceTree = "<group>"; };
+		21B87E7D1F39A2DE00D3563C /* midLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "midLine@2x.png"; sourceTree = "<group>"; };
+		21B87E801F39A55B00D3563C /* adele-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "adele-light-webfont.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +135,21 @@
 		21B87E2D1F39897500D3563C /* GraphSample */ = {
 			isa = PBXGroup;
 			children = (
+				21B87E631F398B1100D3563C /* resource */,
 				21B87E311F39897500D3563C /* AppDelegate.h */,
 				21B87E321F39897500D3563C /* AppDelegate.m */,
 				21B87E341F39897500D3563C /* ViewController.h */,
 				21B87E351F39897500D3563C /* ViewController.m */,
+				21B87E6D1F398C3E00D3563C /* FStarView.h */,
+				21B87E6E1F398C3E00D3563C /* FStarView.m */,
+				21B87E731F398D8800D3563C /* FCircleView.h */,
+				21B87E741F398D8800D3563C /* FCircleView.m */,
+				21B87E761F398E9A00D3563C /* FGraphView.h */,
+				21B87E771F398E9A00D3563C /* FGraphView.m */,
+				21B87E791F398ED100D3563C /* GraphCell.h */,
+				21B87E7A1F398ED100D3563C /* GraphCell.m */,
+				21B87E621F398A9F00D3563C /* HDefine.h */,
+				21B87E611F398A3C00D3563C /* Graph-Prefix.pch */,
 				21B87E371F39897500D3563C /* Main.storyboard */,
 				21B87E3A1F39897500D3563C /* Assets.xcassets */,
 				21B87E3C1F39897500D3563C /* LaunchScreen.storyboard */,
@@ -138,6 +183,25 @@
 				21B87E551F39897600D3563C /* Info.plist */,
 			);
 			path = GraphSampleUITests;
+			sourceTree = "<group>";
+		};
+		21B87E631F398B1100D3563C /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				21B87E701F398D0D00D3563C /* UIView+Fang.h */,
+				21B87E711F398D0D00D3563C /* UIView+Fang.m */,
+				21B87E641F398B3400D3563C /* FImageView.h */,
+				21B87E651F398B3400D3563C /* FImageView.m */,
+				21B87E661F398B3400D3563C /* FLabel.h */,
+				21B87E671F398B3400D3563C /* FLabel.m */,
+				21B87E681F398B3400D3563C /* FView.h */,
+				21B87E691F398B3400D3563C /* FView.m */,
+				21B87E7C1F39A2DE00D3563C /* heart_circle@2x.png */,
+				219281291F39A82C00712B4F /* star_level@2x.png */,
+				21B87E7D1F39A2DE00D3563C /* midLine@2x.png */,
+				21B87E801F39A55B00D3563C /* adele-light-webfont.ttf */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +314,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				21B87E3E1F39897500D3563C /* LaunchScreen.storyboard in Resources */,
+				21B87E811F39A55B00D3563C /* adele-light-webfont.ttf in Resources */,
+				21B87E7F1F39A2DE00D3563C /* midLine@2x.png in Resources */,
+				21B87E7E1F39A2DE00D3563C /* heart_circle@2x.png in Resources */,
 				21B87E3B1F39897500D3563C /* Assets.xcassets in Resources */,
+				2192812A1F39A82C00712B4F /* star_level@2x.png in Resources */,
 				21B87E391F39897500D3563C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +344,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B87E7B1F398ED100D3563C /* GraphCell.m in Sources */,
+				21B87E721F398D0D00D3563C /* UIView+Fang.m in Sources */,
 				21B87E361F39897500D3563C /* ViewController.m in Sources */,
+				21B87E781F398E9A00D3563C /* FGraphView.m in Sources */,
+				21B87E6B1F398B3400D3563C /* FLabel.m in Sources */,
+				21B87E6F1F398C3E00D3563C /* FStarView.m in Sources */,
 				21B87E331F39897500D3563C /* AppDelegate.m in Sources */,
+				21B87E6C1F398B3400D3563C /* FView.m in Sources */,
+				21B87E751F398D8800D3563C /* FCircleView.m in Sources */,
 				21B87E301F39897500D3563C /* main.m in Sources */,
+				21B87E6A1F398B3400D3563C /* FImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 246A9D29DN;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GraphSample/Graph-Prefix.pch";
 				INFOPLIST_FILE = GraphSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TulipSport.GraphSample;
@@ -440,6 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 246A9D29DN;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GraphSample/Graph-Prefix.pch";
 				INFOPLIST_FILE = GraphSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TulipSport.GraphSample;
@@ -516,6 +594,7 @@
 				21B87E5A1F39897600D3563C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21B87E5B1F39897600D3563C /* Build configuration list for PBXNativeTarget "GraphSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +603,7 @@
 				21B87E5D1F39897600D3563C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21B87E5E1F39897600D3563C /* Build configuration list for PBXNativeTarget "GraphSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +612,7 @@
 				21B87E601F39897600D3563C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
